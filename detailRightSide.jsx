@@ -1,8 +1,8 @@
 const Detail = () => {
 const DATA = [
-    {img:'image/MyPic/pizza.webp', Name:'Pizza', QTY:'5', Price:'$100'},
-    {img:'image/MyPic/hotdog.jpg', Name:'HotDog', QTY:'20', Price:'$20$'},
-    {img:'image/MyPic/coca.jpg', Name:'Coca Cola', QTY:'30', Price:'$60$'},
+    {img:'image/MyPic/pizza.png', Name:'Pizza', QTY:'5', Price:'$100'},
+    {img:'image/MyPic/hotdog.png', Name:'HotDog', QTY:'20', Price:'$20$'},
+    {img:'image/MyPic/coca.png', Name:'Coca Cola', QTY:'30', Price:'$60$'},
 ]
     return (
         <div>

@@ -1,19 +1,20 @@
 import './css/stylesheet.css'
+// import Pizza from "./image/MyPic/Pizza.png"
 const Menu = () => {
 const FOOD1 = [
-    {img:'image/MyPic/pizza.webp', Name:'Pizza', Name2:'C Pizza Ot', Available:'10 Available', Sold:'5 Sold', Price:'$100', QTY:'10',},
-    {img:'image/MyPic/berger.jpg', Name:'Burger', Name2:'C Burger Ot', Available:'30 Available', Sold:'15 Sold', Price:'50$', QTY:'12',},
-    {img:'image/MyPic/chips.avif', Name:'Chips', Name2:'C Chips Ot', Available:'20 Available', Sold:'9 Sold', Price:'$70', QTY:'6',},
+    {img:'image/MyPic/Pizza.png', Name:'Pizza', Name2:'C Pizza Ot', Available:'10 Available', Sold:'5 Sold', Price:'$100', QTY:'10',},
+    {img:'image/MyPic/berger.png', Name:'Burger', Name2:'C Burger Ot', Available:'30 Available', Sold:'15 Sold', Price:'50$', QTY:'12',},
+    {img:'image/MyPic/chips.png', Name:'Chips', Name2:'C Chips Ot', Available:'20 Available', Sold:'9 Sold', Price:'$70', QTY:'6',},
 ]
 const FOOD2 = [
-    {img:'image/MyPic/hotdog.jpg', Name:'Hotdog', Name2:'C Hotdog Ot', Available:'50 Available', Sold:'30 Sold', Price:'$20', QTY:'20',},
-    {img:'image/MyPic/hotdogcheese.jpg', Name:'Cheese', Name2:'C Cheese Ot', Available:'40 Available', Sold:'19 Sold', Price:'43$', QTY:'21',},
-    {img:'image/MyPic/icecream.jpg', Name:'Ice Cream', Name2:'C Ice Cream Ot', Available:'80 Available', Sold:'40 Sold', Price:'$60', QTY:'30',},
+    {img:'image/MyPic/hotdog.png', Name:'Hotdog', Name2:'C Hotdog Ot', Available:'50 Available', Sold:'30 Sold', Price:'$20', QTY:'20',},
+    {img:'image/MyPic/cheese.png', Name:'Cheese', Name2:'C Cheese Ot', Available:'40 Available', Sold:'19 Sold', Price:'43$', QTY:'21',},
+    {img:'image/MyPic/icecream.png', Name:'Ice Cream', Name2:'C Ice Cream Ot', Available:'80 Available', Sold:'40 Sold', Price:'$60', QTY:'30',},
 ]
 const FOOD3 = [
-    {img:'image/MyPic/chickennuggets.jpg', Name:'Chicken Nuggets', Name2:'C Chicken Nuggets Ot', Available:'50 Available', Sold:'30 Sold', Price:'$20', QTY:'20',},
-    {img:'image/MyPic/chickenwings.jpg', Name:'Chicken Wings', Name2:'C Chicken Wings Ot', Available:'40 Available', Sold:'19 Sold', Price:'43$', QTY:'21',},
-    {img:'image/MyPic/coca.jpg', Name:'Coca Cola', Name2:'Pherk Coca Cola Ot', Available:'80 Available', Sold:'40 Sold', Price:'$60', QTY:'30',},
+    {img:'image/MyPic/chickennuggets.png', Name:'Chicken Nuggets', Name2:'C Chicken Nuggets Ot', Available:'50 Available', Sold:'30 Sold', Price:'$20', QTY:'20',},
+    {img:'image/MyPic/chickenwings.png', Name:'Chicken Wings', Name2:'C Chicken Wings Ot', Available:'40 Available', Sold:'19 Sold', Price:'43$', QTY:'21',},
+    {img:'image/MyPic/coca.png', Name:'Coca Cola', Name2:'Pherk Coca Cola Ot', Available:'80 Available', Sold:'40 Sold', Price:'$60', QTY:'30',},
 ]
     return (
         <div>
@@ -34,7 +35,7 @@ const FOOD3 = [
                                             <div className='h-[40%] w-[100%] items-center'>
                                                 <h1 className='text-center font-medium'>{data1.Name2}</h1>
                                             </div>
-                                            <div className='h-[30%] w-[100%]  relative'>
+                                            <div className='h-[30%] w-[100%]  relative'> 
                                                 <h1 className='inline-block bottom-0 absolute font-medium'>{data1.Available}</h1>
                                                 <h1 className='inline-block bottom-0 absolute ml-[65%] font-medium'>{data1.Sold}</h1>
                                             </div>

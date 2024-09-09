@@ -37,6 +37,6 @@ const Head = () => {
                 <img src={CJ} alt="" className="h-[50%] w-[initial] rounded-full mr-5"/>
             </div>
         </div>
-    )
+    ) 
 }
 export default Head;
